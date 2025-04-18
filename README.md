@@ -50,9 +50,7 @@ Flash the ESP32-CAM with the appropriate firmware to capture images and send the
 Upload product images or stream live video from ESP32-CAM to detect and update inventory.
 
 Project Structure
-bash
-Copy
-Edit
+
 smart-shelf-management/
 │
 ├── model/                 # YOLOv5 and object detection code
@@ -60,6 +58,8 @@ smart-shelf-management/
 ├── esp32/                 # ESP32-CAM firmware code
 ├── prediction/            # LSTM, Prophet, Random Forest models for prediction
 └── README.md              # Project documentation
+
+
 Future Scope
 Integrate barcode scanning for faster product detection
 
